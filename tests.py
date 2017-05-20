@@ -4,7 +4,7 @@ class SimpleTestCase(unittest.TestCase):
     """demo travis ci"""
 
     def test(self):
-        self.assert("hello"=="hello")
+        self.assertTrue("hello"=="hello")
 
 
 if __name__ == '__main__':
