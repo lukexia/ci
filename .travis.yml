@@ -6,5 +6,5 @@ python:
   - "pypy"
   - "pypy3"
 install:
-  - pip install .
+  - pip install nose
 script: pytest
